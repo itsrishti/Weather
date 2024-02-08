@@ -1,0 +1,83 @@
+body{
+    /* background-image: url(' images\The way we live and the things we love_ Photo.gif'); */
+/* background-size: 100% 100%; 
+     background-color: cadetblue;      */
+     
+        /* background-image: url('Erica Anderson.gif');
+        background-size: cover;
+        
+        
+        
+        height: 100vh;
+        padding:0;
+        margin:0; */
+        
+            background-image: url('https://i.stack.imgur.com/kx8MT.gif');
+            /* background-image: url('https://70311e33f550a83fbee04ccb8e82bc04.gif'); */
+            background-size: cover;
+            
+            
+            
+            height: 100vh;
+            padding:0;
+            margin:0;
+        
+    
+}
+
+.navbar{
+    background-color: rgb(1, 10, 20);
+}
+
+ 
+input{
+    border-radius: 25px;
+    height: 50px;
+    background-color: rgb(2, 25, 57);
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+
+input , textarea {
+    color: rgb(248, 243, 243) !important;
+}
+
+button{
+    position: absolute;
+    border-radius: 25px;
+    top: 50px;
+    right: 175px;
+}
+
+.card{
+    width: 30%;
+    border-radius: 0px;
+    border: none;
+    height: 272px;
+}
+
+.today , .next-day2 , .thin-tape2{
+    background-color:rgb(2, 25, 57); ;
+}
+
+.next-day1{
+    background-color: rgb(225, 225, 232);
+}
+
+.thin-tape1{
+    background-color: rgb(228, 228, 239);
+}
+
+.deg{
+    font-size: 45px;
+}
+
+.deg2{
+    font-size: 34px;
+}
+
+.darktext{
+    color: rgb(232, 224, 224);
+}

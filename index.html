@@ -1,0 +1,142 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/stylesheet.css">
+</head>
+
+<body>
+    <!-- <img src="images\The way we live and the things we love_ Photo.gif" alt=""> -->
+    <nav class="navbar navbar-expand-lg container-fluid d-flex justify-content-between z-3">
+        <div class="p-3">
+            <h3 class="text-white">Weather</h3>
+            <p></p>
+        </div>
+        <div class="w-50">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-primary fw-bold" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-white fw-bold" href="#">News</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-white fw-bold" href="#">Live Cameras</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-white fw-bold" href="#">Photos</a>
+                    </li>
+                    <li class="nav-item mx-3">
+                        <a class="nav-link text-white fw-bold" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div>
+        <div class="text-center position-relative">
+          <!-- <img src="  images\The way we live and the things we love_ Photo.gif" alt=""> -->
+            <input type="text" id="searchCity" class="w-75 m-5 outline" placeholder="Find your location.." />
+            <button class="bg-primary text-white py-2 px-4">Find</button>
+        </div>
+
+        <div class="news">
+            <div class="weatherNews mt-5 d-flex justify-content-center align-items-center text-white">
+                <!-- <img src="  images\The way we live and the things we love_ Photo.gif" alt=""> -->
+                <div class="card today">
+                    <div class="thin-tape1 d-flex justify-content-between p-1">
+                        <div id="today-day">Wednesday</div>
+                        <div id="today-date">28 April</div>
+                    </div>
+
+                    <div>
+                        <div class="d-flex justify-content-between p-3">
+                            <h2 class="city">Cairo</h2>
+                            <p class="deg today-degree fw-bold px-5">15 <sup>o</sup>C </p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p class="darktext fw-medium mx-2 today-desc">Clear</p>
+                            <img id="today-icon"  width="75"/>
+                        </div>
+                        
+                        
+                        <div class="d-flex">
+                            
+                            <div class="rainy d-flex m-3">
+                                <p>20%</p>
+                            </div>
+                            <div class="windy d-flex m-3">
+                                <p>18km/h</p>
+                            </div>
+                            <div class="direction d-flex m-3">
+                                <p>East</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+                <div class="card next-day next-day1 text-center">
+                    <div class="thin-tape2 text-center p-1">
+                        <div class="nextDay-day">Thursday</div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <img class="nextDay-icon" width="80"/>
+                        </div>
+                        <div class="degree">
+                            <p class="deg2 px-5 maxdegree">36.1<sup>o</sup>C</p>
+                        </div>
+                        <p class="text-secondary mindegree">18<sup>o</sup></p>
+                        <p class="text-primary fw-medium desc">Sunny</p>
+                    </div>
+                </div>
+
+                <div class="card next-day next-day2 text-center">
+                    <div class="thin-tape1 text-center p-1">
+                        <div class="nextDay-day">Friday</div>
+                    </div>
+
+                    <div>
+                        <div>
+                            <img class="nextDay-icon" width="80"/>
+                        </div>
+                        <div class="degree">
+                            <p class="deg2 px-5 maxdegree">37.8<sup>o</sup>C</p>
+                        </div>
+                        <p class="text-secondary mindegree">19.7<sup>o</sup></p>
+                        <p class="darktext fw-medium desc">Partly Cloudy</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/javascript.js"></script>
+
+</body>
+
+</html>
